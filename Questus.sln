@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questus", "Questus\Questus.csproj", "{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE374D59-9C55-42A1-ABEA-40D6EE652D57}
+	EndGlobalSection
+EndGlobal
