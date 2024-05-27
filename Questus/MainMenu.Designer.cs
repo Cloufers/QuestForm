@@ -91,7 +91,7 @@
             Controls.Add(PlayButton);
             Name = "MainMenu";
             Text = "game";
-            Load += Form1_Load;
+            
             ResumeLayout(false);
         }
 
