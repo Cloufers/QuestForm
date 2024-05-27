@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Scenes;
+﻿using Scenes;
 
 namespace SceneControl
 {
@@ -107,6 +106,7 @@ namespace SceneControl
         {
             endingScenes = new Dictionary<int, string>
             {
+                { 9, "Вы не получили деняг и умерли голодной смертью" },
                 { 10, "Вы пошли своим путем и споткнулись на кочке, пропав в болотной тине" },
                 { 11, "Вы убили неожидающее подставы приведение и получили награду" },
                 { 12, "Экзорцист отправил призрака в лучший мир" },
