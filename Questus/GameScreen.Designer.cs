@@ -84,6 +84,10 @@ namespace Questus
             Name = "GameScreen";
             Text = "Game";
             ResumeLayout(false);
+
+  
+        
+
         }
 
         #endregion
@@ -91,5 +95,6 @@ namespace Questus
         private Button Option1;
         private Button Option2;
         private Button Option3;
+    
     }
 }

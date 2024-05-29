@@ -110,10 +110,8 @@ namespace Questus
                 currentScene.SceneText = sceneManager.GetEndingSceneText(currentSceneIndex);
                 HideButtons();
             }
-
-            UpdateButtonTextAndHandlers();
-            ResetAnimation();
-            InitializeAnimation();
+            
+            UpdtaeScene();
         }
 
         private void StartAgainButton_Click(object? sender, EventArgs e)
@@ -122,10 +120,7 @@ namespace Questus
             Controls.Remove(Controls.OfType<Button>().FirstOrDefault(b => b.Text == "Quit Game")); // Удаляем кнопку "Quit Game"
             Controls.Remove(questionMark);
 
-            InitializeComponent();
-            InitializeGame();
-            InitializeAnimation();
-            history.Push(0);
+            RestartGame();
         }
 
         private void QuitGameButton_Click(object? sender, EventArgs e)
@@ -189,5 +184,23 @@ namespace Questus
                 animatedLabel = null;
             }
         }
+    
+        private void RestartGame()
+        {
+            InitializeComponent();
+            InitializeGame();
+            InitializeAnimation();
+            history.Push(0);
+        }
+    
+        private void UpdtaeScene()
+        {
+            UpdateButtonTextAndHandlers();
+            ResetAnimation();
+            InitializeAnimation();
+        }
+    
+    
     }
+
 }

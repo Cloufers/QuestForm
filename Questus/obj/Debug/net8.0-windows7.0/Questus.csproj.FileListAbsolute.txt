@@ -18,3 +18,15 @@ C:\Users\SadPC\Desktop\anew\Questus\obj\Debug\net8.0-windows7.0\Questus.pdb
 C:\Users\SadPC\Desktop\anew\Questus\obj\Debug\net8.0-windows7.0\Questus.genruntimeconfig.cache
 C:\Users\SadPC\Desktop\anew\Questus\obj\Debug\net8.0-windows7.0\ref\Questus.dll
 C:\Users\SadPC\Desktop\anew\Questus\obj\Debug\net8.0-windows7.0\FixedSizeForm.resources
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.Asio.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.Core.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.Midi.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.Wasapi.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.WinForms.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.WinMM.dll
+C:\Users\SadPC\Desktop\anew\Questus\obj\Debug\net8.0-windows7.0\Questus.csproj.AssemblyReference.cache
+C:\Users\SadPC\Desktop\anew\Questus\obj\Debug\net8.0-windows7.0\Questus.csproj.Up2Date
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\libmp3lame.32.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\libmp3lame.64.dll
+C:\Users\SadPC\Desktop\anew\Questus\bin\Debug\net8.0-windows7.0\NAudio.Lame.dll
