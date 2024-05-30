@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O/iUD1j+YsevzVs0yP+beX19zT/TnDlvpkzIG3dAXi8aqlnCEnEtMGvAmKN+xeT22smg55KOp6L+SdOfCjdV+A==",
+  "dgSpecHash": "tYZmuP3IFdsnwnPEEq0qjrkn5+nb6MZ1dXXdQd9PYWN+OM5D1Mv105sddC2wSvnZkzc++IOX8arx6GydWVGQ6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SadPC\\Desktop\\anew\\Questus\\Questus.csproj",
+  "projectFilePath": "C:\\Users\\SadPC\\Desktop\\again\\Questus\\Questus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SadPC\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\SadPC\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

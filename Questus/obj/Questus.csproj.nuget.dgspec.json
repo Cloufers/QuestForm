@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SadPC\\Desktop\\anew\\Questus\\Questus.csproj": {}
+    "C:\\Users\\SadPC\\Desktop\\again\\Questus\\Questus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SadPC\\Desktop\\anew\\Questus\\Questus.csproj": {
+    "C:\\Users\\SadPC\\Desktop\\again\\Questus\\Questus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SadPC\\Desktop\\anew\\Questus\\Questus.csproj",
+        "projectUniqueName": "C:\\Users\\SadPC\\Desktop\\again\\Questus\\Questus.csproj",
         "projectName": "Questus",
-        "projectPath": "C:\\Users\\SadPC\\Desktop\\anew\\Questus\\Questus.csproj",
+        "projectPath": "C:\\Users\\SadPC\\Desktop\\again\\Questus\\Questus.csproj",
         "packagesPath": "C:\\Users\\SadPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SadPC\\Desktop\\anew\\Questus\\obj\\",
+        "outputPath": "C:\\Users\\SadPC\\Desktop\\again\\Questus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

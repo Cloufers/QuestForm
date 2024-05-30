@@ -37,6 +37,8 @@ namespace Questus
             UpdateButtonTextAndHandlers();
         }
 
+
+        // ANIMATION
         private void InitializeAnimation()
         {
             if (currentScene != null && !string.IsNullOrEmpty(currentScene.SceneText))
@@ -56,7 +58,6 @@ namespace Questus
                 animationTimer.Start();
             }
         }
-
         private async Task AnimationTimer_TickAsync()
         {
             if (currentCharIndex < textToAnimate.Length)
@@ -75,6 +76,34 @@ namespace Questus
                 }
             }
         }
+        private void ResetAnimation()
+        {
+            if (animationTimer != null)
+            {
+                animationTimer.Stop();
+                animationTimer.Dispose();
+                animationTimer = null;
+            }
+
+            if (animatedLabel != null)
+            {
+                Controls.Remove(animatedLabel);
+                animatedLabel.Dispose();
+                animatedLabel = null;
+            }
+        }
+        private void ClearAnimatedLabel()
+        {
+            if (animatedLabel != null)
+            {
+                Controls.Remove(animatedLabel);
+                animatedLabel.Dispose();
+                animatedLabel = null;
+            }
+        }
+
+
+        // BUTTONS
 
         private void UpdateButtonTextAndHandlers()
         {
@@ -93,7 +122,6 @@ namespace Questus
             Option3.Click += Option_Click;
             Option3.Enabled = currentScene.SceneActions.Count > 2;
         }
-
         private void Option_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
@@ -113,7 +141,6 @@ namespace Questus
             
             UpdtaeScene();
         }
-
         private void StartAgainButton_Click(object? sender, EventArgs e)
         {
             Controls.Remove((Button)sender); // Удаляем кнопку "Start Again"
@@ -122,29 +149,10 @@ namespace Questus
 
             RestartGame();
         }
-
         private void QuitGameButton_Click(object? sender, EventArgs e)
         {
             Close();
         }
-
-        private void ResetAnimation()
-        {
-            if (animationTimer != null)
-            {
-                animationTimer.Stop();
-                animationTimer.Dispose();
-                animationTimer = null;
-            }
-
-            if (animatedLabel != null)
-            {
-                Controls.Remove(animatedLabel);
-                animatedLabel.Dispose();
-                animatedLabel = null;
-            }
-        }
-
         private void ShowEndGameButtons()
         {
             ClearAnimatedLabel();
@@ -167,7 +175,6 @@ namespace Questus
             quitGameButton.Click += QuitGameButton_Click;
             Controls.Add(quitGameButton);
         }
-
         private void HideButtons()
         {
             Option1.Hide();
@@ -175,16 +182,10 @@ namespace Questus
             Option3.Hide();
         }
 
-        private void ClearAnimatedLabel()
-        {
-            if (animatedLabel != null)
-            {
-                Controls.Remove(animatedLabel);
-                animatedLabel.Dispose();
-                animatedLabel = null;
-            }
-        }
     
+
+
+        // UPDATES
         private void RestartGame()
         {
             InitializeComponent();
@@ -192,7 +193,6 @@ namespace Questus
             InitializeAnimation();
             history.Push(0);
         }
-    
         private void UpdtaeScene()
         {
             UpdateButtonTextAndHandlers();
