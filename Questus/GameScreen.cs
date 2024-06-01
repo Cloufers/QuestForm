@@ -48,12 +48,11 @@ namespace Questus
 
                 animatedLabel = new Label();
                 animatedLabel.AutoSize = true;
-                animatedLabel.Location = new Point(10, 10); // Location
-                animatedLabel.Font = new Font("Arial", 14); // Font/Size
+                animatedLabel.Location = new Point(230, 440); // Location
+                animatedLabel.Font = new Font("Arial", 15); // Font/Size
                 Controls.Add(animatedLabel);
-
                 animationTimer = new System.Windows.Forms.Timer();
-                animationTimer.Interval = 50; // Interval
+                animationTimer.Interval = 30; // Interval
                 animationTimer.Tick += async (sender, e) => await AnimationTimer_TickAsync();
                 animationTimer.Start();
             }
@@ -138,7 +137,7 @@ namespace Questus
                 currentScene.SceneText = sceneManager.GetEndingSceneText(currentSceneIndex);
                 HideButtons();
             }
-            
+
             UpdtaeScene();
         }
         private void StartAgainButton_Click(object? sender, EventArgs e)
@@ -157,7 +156,7 @@ namespace Questus
         {
             ClearAnimatedLabel();
 
-            
+
             this.BackgroundImage = Properties.Resources.scene0;
 
             questionMark = new Label();
@@ -197,7 +196,7 @@ namespace Questus
             Option3.Hide();
         }
 
-    
+
 
 
         // UPDATES
@@ -214,8 +213,11 @@ namespace Questus
             ResetAnimation();
             InitializeAnimation();
         }
-    
-    
+
+        private void GameScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
