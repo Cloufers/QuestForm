@@ -41,33 +41,41 @@ namespace Questus
             // 
             splitter1.Location = new Point(0, 0);
             splitter1.Name = "splitter1";
-            splitter1.Size = new Size(3, 450);
+            splitter1.Size = new Size(3, 681);
             splitter1.TabIndex = 1;
             splitter1.TabStop = false;
             // 
             // Option1
             // 
-            Option1.Location = new Point(57, 292);
+            Option1.BackColor = Color.Black;
+            Option1.BackgroundImage = Properties.Resources.buttonFon;
+            Option1.Font = new Font("Tempus Sans ITC", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            Option1.ForeColor = SystemColors.ActiveCaptionText;
+            Option1.Location = new Point(148, 523);
             Option1.Name = "Option1";
-            Option1.Size = new Size(156, 52);
+            Option1.Size = new Size(230, 86);
             Option1.TabIndex = 0;
             Option1.Text = "HELP";
-            Option1.UseVisualStyleBackColor = true;
+            Option1.UseVisualStyleBackColor = false;
             // 
             // Option2
             // 
-            Option2.Location = new Point(314, 292);
+            Option2.BackgroundImage = Properties.Resources.buttonFon;
+            Option2.Font = new Font("Tempus Sans ITC", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            Option2.Location = new Point(521, 523);
             Option2.Name = "Option2";
-            Option2.Size = new Size(147, 52);
+            Option2.Size = new Size(230, 86);
             Option2.TabIndex = 1;
             Option2.Text = "button2";
             Option2.UseVisualStyleBackColor = true;
             // 
             // Option3
             // 
-            Option3.Location = new Point(544, 292);
+            Option3.BackgroundImage = Properties.Resources.buttonFon;
+            Option3.Font = new Font("Tempus Sans ITC", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            Option3.Location = new Point(874, 523);
             Option3.Name = "Option3";
-            Option3.Size = new Size(147, 52);
+            Option3.Size = new Size(230, 86);
             Option3.TabIndex = 2;
             Option3.Text = "button3";
             Option3.UseVisualStyleBackColor = true;
@@ -76,18 +84,15 @@ namespace Questus
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1264, 681);
             Controls.Add(Option3);
             Controls.Add(Option2);
             Controls.Add(Option1);
             Controls.Add(splitter1);
             Name = "GameScreen";
             Text = "Game";
+            Load += GameScreen_Load;
             ResumeLayout(false);
-
-  
-        
-
         }
 
         #endregion

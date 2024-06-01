@@ -1,14 +1,16 @@
 ﻿
-namespace Scenes { 
+using System.Runtime.CompilerServices;
 
-   public class SceneHolder
+namespace Scenes {
+
+    public class SceneHolder
     {
         private string _sceneText = string.Empty;
 
 
         public SceneHolder()
         {
-            
+
         }
 
         List<string> _actions = new List<string>();
@@ -32,6 +34,7 @@ namespace Scenes {
             set { _sceneText = value; }
         }
 
+       
 
     }
 

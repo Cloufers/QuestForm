@@ -1,5 +1,7 @@
-﻿using SceneControl;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using SceneControl;
 using Scenes;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 
 namespace Questus
 {
@@ -18,6 +20,7 @@ namespace Questus
         private int currentCharIndex;
         private Label questionMark;
         private System.Windows.Forms.Timer animationTimer;
+        private PictureBox fonImage;
 
         public GameScreen()
         {
@@ -48,16 +51,18 @@ namespace Questus
 
                 animatedLabel = new Label();
                 animatedLabel.AutoSize = true;
-                animatedLabel.Location = new Point(10, 10); // Location
-                animatedLabel.Font = new Font("Arial", 14); // Font/Size
+                animatedLabel.Location = new Point(150, 420); // Location
+                animatedLabel.Font = new Font("Tempus Sans ITC", 18); // Font/Size
+                animatedLabel.TextAlign = ContentAlignment.MiddleLeft;
                 Controls.Add(animatedLabel);
 
                 animationTimer = new System.Windows.Forms.Timer();
-                animationTimer.Interval = 50; // Interval
+                animationTimer.Interval = 35; // Interval
                 animationTimer.Tick += async (sender, e) => await AnimationTimer_TickAsync();
                 animationTimer.Start();
             }
         }
+
         private async Task AnimationTimer_TickAsync()
         {
             if (currentCharIndex < textToAnimate.Length)
@@ -138,7 +143,7 @@ namespace Questus
                 currentScene.SceneText = sceneManager.GetEndingSceneText(currentSceneIndex);
                 HideButtons();
             }
-            
+
             UpdtaeScene();
         }
         private void StartAgainButton_Click(object? sender, EventArgs e)
@@ -146,6 +151,7 @@ namespace Questus
             Controls.Remove((Button)sender); // Удаляем кнопку "Start Again"
             Controls.Remove(Controls.OfType<Button>().FirstOrDefault(b => b.Text == "Quit Game")); // Удаляем кнопку "Quit Game"
             Controls.Remove(questionMark);
+
 
             RestartGame();
         }
@@ -157,21 +163,35 @@ namespace Questus
         {
             ClearAnimatedLabel();
 
+            this.BackgroundImage = Properties.Resources.scene0;
+
             questionMark = new Label();
             questionMark.Text = "Wanna start again?";
-            questionMark.Location = new Point(10, 10);
+            questionMark.Location = new Point(540, 220);
+            questionMark.Font = new Font("Tempus Sans ITC", 18); // Font/Size
+            questionMark.TextAlign = ContentAlignment.MiddleLeft;
+            questionMark.BorderStyle = BorderStyle.None;
+            questionMark.Image = Properties.Resources.buttonFon;
             questionMark.AutoSize = true;
             Controls.Add(questionMark);
 
             Button startAgainButton = new Button();
             startAgainButton.Text = "Start Again";
-            startAgainButton.Location = new Point(Width / 2 - startAgainButton.Width - 20, Height / 2 - startAgainButton.Height / 2);
+            startAgainButton.Size = new Size(80, 40);
+            startAgainButton.Font = new Font("Tempus Sans ITC", 18); // Font/Size
+            startAgainButton.TextAlign = ContentAlignment.MiddleCenter;
+            startAgainButton.Location = new Point(Width / 2 - startAgainButton.Width - 40, Height / 2 - startAgainButton.Height - 40);
+            startAgainButton.Image = Properties.Resources.buttonFon;
             startAgainButton.Click += StartAgainButton_Click;
             Controls.Add(startAgainButton);
 
             Button quitGameButton = new Button();
             quitGameButton.Text = "Quit Game";
-            quitGameButton.Location = new Point(Width / 2 + 20, Height / 2 - quitGameButton.Height / 2);
+            quitGameButton.Size = new Size(80, 40);
+            quitGameButton.Location = new Point(Width / 2 + 40, Height / 2 - quitGameButton.Height - 40);
+            quitGameButton.Font = new Font("Tempus Sans ITC", 18); // Font/Size
+            quitGameButton.TextAlign = ContentAlignment.MiddleCenter;
+            quitGameButton.Image = Properties.Resources.buttonFon;
             quitGameButton.Click += QuitGameButton_Click;
             Controls.Add(quitGameButton);
         }
@@ -182,7 +202,7 @@ namespace Questus
             Option3.Hide();
         }
 
-    
+
 
 
         // UPDATES
@@ -199,8 +219,11 @@ namespace Questus
             ResetAnimation();
             InitializeAnimation();
         }
-    
-    
+
+        private void GameScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

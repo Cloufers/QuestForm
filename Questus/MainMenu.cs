@@ -22,16 +22,19 @@ namespace Questus
         private void BackgroundMusic()
         {
             var musicFilePath = "back.mp3";
-                waveOut = new WaveOutEvent();
+            waveOut = new WaveOutEvent();
 
-                using (var reader = new Mp3FileReader(musicFilePath))
-                {
-                    waveOut.Init(reader);
-                    waveOut.Play();
-                }
-     
+            using (var reader = new Mp3FileReader(musicFilePath))
+            {
+                waveOut.Init(reader);
+                waveOut.Play();
+            }
+
         }
 
- 
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

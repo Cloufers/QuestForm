@@ -39,10 +39,10 @@
             // 
             PlayButton.FlatAppearance.MouseDownBackColor = Color.White;
             PlayButton.FlatStyle = FlatStyle.Flat;
-            PlayButton.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            PlayButton.Font = new Font("Tempus Sans ITC", 18F, FontStyle.Bold);
             PlayButton.Location = new Point(63, 115);
             PlayButton.Name = "PlayButton";
-            PlayButton.Size = new Size(250, 43);
+            PlayButton.Size = new Size(398, 50);
             PlayButton.TabIndex = 0;
             PlayButton.Text = "Play";
             PlayButton.UseVisualStyleBackColor = true;
@@ -50,30 +50,31 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(63, 185);
+            button2.Font = new Font("Tempus Sans ITC", 18F, FontStyle.Bold);
+            button2.Location = new Point(63, 216);
             button2.Name = "button2";
-            button2.Size = new Size(250, 45);
+            button2.Size = new Size(398, 50);
             button2.TabIndex = 1;
             button2.Text = "Continue\r\n";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(63, 332);
+            button3.Font = new Font("Tempus Sans ITC", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(63, 413);
             button3.Name = "button3";
-            button3.Size = new Size(250, 39);
+            button3.Size = new Size(398, 50);
             button3.TabIndex = 2;
             button3.Text = "Settings";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            button4.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(63, 259);
+            button4.Font = new Font("Tempus Sans ITC", 18F, FontStyle.Bold);
+            button4.Location = new Point(63, 314);
             button4.Name = "button4";
-            button4.Size = new Size(250, 45);
+            button4.Size = new Size(398, 50);
             button4.TabIndex = 3;
             button4.Text = "Credits";
             button4.UseVisualStyleBackColor = true;
@@ -84,14 +85,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Azure;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1006, 520);
+            ClientSize = new Size(1264, 681);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(PlayButton);
             Name = "MainMenu";
             Text = "game";
-            
             ResumeLayout(false);
         }
 
