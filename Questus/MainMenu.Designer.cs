@@ -40,7 +40,7 @@
             PlayButton.FlatAppearance.MouseDownBackColor = Color.White;
             PlayButton.FlatStyle = FlatStyle.Flat;
             PlayButton.Font = new Font("Kristen ITC", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            PlayButton.Location = new Point(63, 115);
+            PlayButton.Location = new Point(123, 116);
             PlayButton.Name = "PlayButton";
             PlayButton.Size = new Size(310, 55);
             PlayButton.TabIndex = 0;
@@ -51,7 +51,7 @@
             // button2
             // 
             button2.Font = new Font("Kristen ITC", 18F, FontStyle.Bold);
-            button2.Location = new Point(63, 210);
+            button2.Location = new Point(123, 217);
             button2.Name = "button2";
             button2.Size = new Size(310, 55);
             button2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // button3
             // 
             button3.Font = new Font("Kristen ITC", 18F, FontStyle.Bold);
-            button3.Location = new Point(63, 407);
+            button3.Location = new Point(123, 407);
             button3.Name = "button3";
             button3.Size = new Size(310, 55);
             button3.TabIndex = 2;
@@ -71,7 +71,7 @@
             // button4
             // 
             button4.Font = new Font("Kristen ITC", 18F, FontStyle.Bold);
-            button4.Location = new Point(63, 307);
+            button4.Location = new Point(123, 308);
             button4.Name = "button4";
             button4.Size = new Size(310, 55);
             button4.TabIndex = 3;

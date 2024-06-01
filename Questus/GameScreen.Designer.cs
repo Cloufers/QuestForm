@@ -47,33 +47,30 @@ namespace Questus
             // 
             // Option1
             // 
-            Option1.BackgroundImage = Properties.Resources.buttonFon;
             Option1.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
-            Option1.Location = new Point(232, 530);
+            Option1.Location = new Point(222, 530);
             Option1.Name = "Option1";
-            Option1.Size = new Size(190, 60);
+            Option1.Size = new Size(200, 83);
             Option1.TabIndex = 0;
             Option1.Text = "HELP";
             Option1.UseVisualStyleBackColor = true;
             // 
             // Option2
             // 
-            Option2.BackgroundImage = Properties.Resources.buttonFon;
             Option2.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
             Option2.Location = new Point(557, 530);
             Option2.Name = "Option2";
-            Option2.Size = new Size(190, 60);
+            Option2.Size = new Size(208, 83);
             Option2.TabIndex = 1;
             Option2.Text = "button2";
             Option2.UseVisualStyleBackColor = true;
             // 
             // Option3
             // 
-            Option3.BackgroundImage = Properties.Resources.buttonFon;
             Option3.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
             Option3.Location = new Point(864, 530);
             Option3.Name = "Option3";
-            Option3.Size = new Size(190, 60);
+            Option3.Size = new Size(201, 83);
             Option3.TabIndex = 2;
             Option3.Text = "button3";
             Option3.UseVisualStyleBackColor = true;
@@ -98,6 +95,5 @@ namespace Questus
         private Button Option1;
         private Button Option2;
         private Button Option3;
-    
     }
 }
