@@ -157,21 +157,36 @@ namespace Questus
         {
             ClearAnimatedLabel();
 
+            
+            this.BackgroundImage = Properties.Resources.scene0;
+
             questionMark = new Label();
             questionMark.Text = "Wanna start again?";
-            questionMark.Location = new Point(10, 10);
+            questionMark.Location = new Point(540, 220);
+            questionMark.Font = new Font("Tempus Sans ITC", 18); // Font/Size
+            questionMark.TextAlign = ContentAlignment.MiddleLeft;
+            questionMark.BorderStyle = BorderStyle.None;
+            questionMark.Image = Properties.Resources.buttonFon;
             questionMark.AutoSize = true;
             Controls.Add(questionMark);
 
             Button startAgainButton = new Button();
             startAgainButton.Text = "Start Again";
-            startAgainButton.Location = new Point(Width / 2 - startAgainButton.Width - 20, Height / 2 - startAgainButton.Height / 2);
+            startAgainButton.Size = new Size(80, 40);
+            startAgainButton.Font = new Font("Tempus Sans ITC", 18); // Font/Size
+            startAgainButton.TextAlign = ContentAlignment.MiddleCenter;
+            startAgainButton.Location = new Point(Width / 2 - startAgainButton.Width - 40, Height / 2 - startAgainButton.Height - 40);
+            startAgainButton.Image = Properties.Resources.buttonFon;
             startAgainButton.Click += StartAgainButton_Click;
             Controls.Add(startAgainButton);
 
             Button quitGameButton = new Button();
             quitGameButton.Text = "Quit Game";
-            quitGameButton.Location = new Point(Width / 2 + 20, Height / 2 - quitGameButton.Height / 2);
+            quitGameButton.Size = new Size(80, 40);
+            quitGameButton.Location = new Point(Width / 2 + 40, Height / 2 - quitGameButton.Height - 40);
+            quitGameButton.Font = new Font("Tempus Sans ITC", 18); // Font/Size
+            quitGameButton.TextAlign = ContentAlignment.MiddleCenter;
+            quitGameButton.Image = Properties.Resources.buttonFon;
             quitGameButton.Click += QuitGameButton_Click;
             Controls.Add(quitGameButton);
         }
