@@ -86,7 +86,6 @@ namespace Questus
             Controls.Add(splitter1);
             Name = "GameScreen";
             Text = "Game";
-            Load += GameScreen_Load;
             ResumeLayout(false);
         }
 

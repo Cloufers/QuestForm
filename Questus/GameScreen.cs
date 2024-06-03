@@ -21,9 +21,7 @@ namespace Questus
 
         public GameScreen()
         {
-            InitializeComponent();
-            InitializeGame();
-            InitializeAnimation();
+            LoadGame();
         }
 
         private void InitializeGame()
@@ -207,8 +205,6 @@ namespace Questus
         // UPDATES
         private void RestartGame()
         {
-             BackgroundImage = null;
-
             InitializeComponent();
             InitializeGame();
             InitializeAnimation();
@@ -225,10 +221,12 @@ namespace Questus
             ResetAnimation();
             InitializeAnimation();
         }
-
-        private void GameScreen_Load(object sender, EventArgs e)
+        private void LoadGame()
         {
-
+            InitializeComponent();
+            InitializeGame();
+            InitializeAnimation();
+            BackgroundImage = Properties.Resources.ResourceManager.GetObject(currentScene.BackgroundImageName) as Image;
         }
 
     }

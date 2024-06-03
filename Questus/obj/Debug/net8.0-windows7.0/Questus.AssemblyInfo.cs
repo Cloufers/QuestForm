@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Questus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf28760b16f8ee02586b960a75eeba2637ad7525")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c489aa5e99868213ab8c8f328d7d9de2bde943cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Questus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Questus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
