@@ -4,6 +4,8 @@ namespace Scenes {
    public class SceneHolder
     {
         private string _sceneText = string.Empty;
+        private string _backgroundImageName = string.Empty;
+
 
 
         public SceneHolder()
@@ -30,6 +32,11 @@ namespace Scenes {
         {
             get { return _sceneText; }
             set { _sceneText = value; }
+        }
+        public string BackgroundImageName
+        {
+            get { return _backgroundImageName; }
+            set { _backgroundImageName = value; }
         }
 
 

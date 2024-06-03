@@ -1,6 +1,5 @@
 ﻿using SceneControl;
 using Scenes;
-using System.Diagnostics.CodeAnalysis;
 
 namespace Questus
 {
@@ -163,7 +162,7 @@ namespace Questus
             ClearAnimatedLabel();
 
 
-            this.BackgroundImage = Properties.Resources.scene0;
+            BackgroundImage = Properties.Resources.scene0;
 
             questionMark = new Label();
             questionMark.Text = "Wanna start again?";
@@ -208,6 +207,8 @@ namespace Questus
         // UPDATES
         private void RestartGame()
         {
+             BackgroundImage = null;
+
             InitializeComponent();
             InitializeGame();
             InitializeAnimation();
@@ -215,6 +216,11 @@ namespace Questus
         }
         private void UpdtaeScene()
         {
+            if (!string.IsNullOrEmpty(currentScene.BackgroundImageName))
+            {
+                BackgroundImage = Properties.Resources.ResourceManager.GetObject(currentScene.BackgroundImageName) as Image;
+            }
+
             UpdateButtonTextAndHandlers();
             ResetAnimation();
             InitializeAnimation();
