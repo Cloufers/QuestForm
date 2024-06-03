@@ -22,7 +22,7 @@ namespace SceneControl
                     SceneActions = new List<string> { "Принять опасное задание гильдии", "Выйти из гильдии и отправиться за границу", "Не взять заказ" },
                     SceneGoTo = new List<int> { 1, 15, 9 },
                     SceneText = "В монастырях не давали курить, в тюрьме - пить. Оставалась только гильдия. \nГильдия - прекрасная страна свободы.",
-                    BackgroundImageName = "scene13"
+                    BackgroundImageName = "scene0"
                     
                 },
                 new SceneHolder // 1
@@ -57,53 +57,64 @@ namespace SceneControl
                 {
                     SceneActions = new List<string> { "Зажечь факел и углубиться внутрь", "Повернуть назад", "Потупить в стену" },
                     SceneGoTo = new List<int> { 6, 3, 6 },
-                    SceneText = "Внутри царила кромешная тьма. Воздух был спёрт и тяжел"
+                    SceneText = "Внутри царила кромешная тьма. Воздух был спёрт и тяжел",
+                     BackgroundImageName = "scene5"
                 },
                 new SceneHolder // 6
                 {
                     SceneActions = new List<string> { "Замереть", "Заорать и убежать", "Страшно выругаться" },
                     SceneGoTo = new List<int> { 7, 3, 7 },
-                    SceneText = "Тьма сгущалась и уже даже огонь не спасал положение. \nИз-за поворота выплало нечто светящиеся"
+                    SceneText = "Тьма сгущалась и уже даже огонь не спасал положение. \nИз-за поворота выплало нечто светящиеся",
+                    BackgroundImageName = "scene6"
                 },
                 new SceneHolder // 7
                 {
                     SceneActions = new List<string> { "Поболтать", "Напасть", "Притвориться стенкой" },
                     SceneGoTo = new List<int> { 8, 14, 8 },
-                    SceneText = "Призрак смерил вас взглядом и подлетел ближе"
+                    SceneText = "Призрак смерил вас взглядом и подлетел ближе",
+                     BackgroundImageName = "scene7"
                 },
                 new SceneHolder // 8
                 {
                     SceneActions = new List<string> { "Убить", "Оставить в покое", "Позвать экзорциста" },
                     SceneGoTo = new List<int> { 11, 13, 12 },
-                    SceneText = "Фантом поведал вам свою душещипательную историю о жизни и смерти"
+                    SceneText = "Фантом поведал вам свою душещипательную историю о жизни и смерти",
+                    BackgroundImageName = "scene8"
                 },
                 new SceneHolder // 9
                 {
-                    SceneText = string.Empty
+                    SceneText = string.Empty,
+                    BackgroundImageName = "scene9"
                 },
                 new SceneHolder // 10
                 {
-                    SceneText = string.Empty
+                    SceneText = string.Empty,
+                    BackgroundImageName = "scene10"
                 },
                 new SceneHolder // 11
                 {
-                    SceneText = string.Empty
+                    SceneText = string.Empty,
+                    BackgroundImageName = "scene11"
                 },
                 new SceneHolder // 12
                 {
-                    SceneText = string.Empty
+                    SceneText = string.Empty,
+                    BackgroundImageName = "scene12"
                 },
                 new SceneHolder // 13
                 {
-                    SceneText = string.Empty
+                    SceneText = string.Empty,
+                    BackgroundImageName = "scene13"
                 },
                 new SceneHolder // 14
                 {
-                    SceneText = string.Empty
+                    SceneText = string.Empty,
+                    BackgroundImageName = "scene14"
                 },
                 new SceneHolder // 15
                 {
-                    SceneText = string.Empty
+                    SceneText = string.Empty,
+                    BackgroundImageName = "scene15"
                 }
             };
         }
