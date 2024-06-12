@@ -1,4 +1,5 @@
 ﻿using Scenes;
+using Newtonsoft.Json;
 
 namespace SceneControl
 {
@@ -11,6 +12,7 @@ namespace SceneControl
         {
             InitializeScenes();
             InitializeEndingScenes();
+            SaveScenesAsJSON("scenes.json");
         }
 
         private void InitializeScenes()
@@ -23,7 +25,6 @@ namespace SceneControl
                     SceneGoTo = new List<int> { 1, 9, 10 },
                     SceneText = "В монастырях не давали курить, в тюрьме - пить. Оставалась только гильдия. \nГильдия - прекрасная страна свободы.",
                     BackgroundImageName = "scene0"
-                    
                 },
                 new SceneHolder // 1
                 {
@@ -157,6 +158,29 @@ namespace SceneControl
         public string GetEndingSceneText(int sceneIndex)
         {
             return endingScenes.ContainsKey(sceneIndex) ? endingScenes[sceneIndex] : string.Empty;
+        }
+
+        private SceneDataJSON ConvertScenesToJSON()
+        {
+            var sceneData = new SceneDataJSON
+            {
+                Scenes = listScenes
+            };
+
+            sceneData.EndingScenes = endingScenes.Select(kvp => new EndingSceneJSON
+            {
+                SceneIndex = kvp.Key,
+                EndingText = kvp.Value
+            }).ToList();
+
+            return sceneData;
+        }
+
+        public void SaveScenesAsJSON(string filePath)
+        {
+            var sceneData = ConvertScenesToJSON();
+            string json = JsonConvert.SerializeObject(sceneData, Formatting.Indented);
+            File.WriteAllText(filePath, json);
         }
     }
 }

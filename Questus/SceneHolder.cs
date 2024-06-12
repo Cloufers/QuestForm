@@ -1,20 +1,16 @@
-﻿
-namespace Scenes { 
-
-   public class SceneHolder
+﻿namespace Scenes
+{
+    public class SceneHolder
     {
         private string _sceneText = string.Empty;
         private string _backgroundImageName = string.Empty;
 
-
-
         public SceneHolder()
         {
-            
         }
 
-        List<string> _actions = new List<string>();
-        List<int> _goToScene = new List<int>();
+        private List<string> _actions = new List<string>();
+        private List<int> _goToScene = new List<int>();
 
         public List<string> SceneActions
         {
@@ -33,13 +29,11 @@ namespace Scenes {
             get { return _sceneText; }
             set { _sceneText = value; }
         }
+
         public string BackgroundImageName
         {
             get { return _backgroundImageName; }
             set { _backgroundImageName = value; }
         }
-
-
     }
-
 }
