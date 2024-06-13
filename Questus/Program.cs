@@ -1,3 +1,4 @@
+using Scenes;
 
 namespace Questus
 {
@@ -7,19 +8,10 @@ namespace Questus
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             ApplicationConfiguration.Initialize();
             Application.Run(new MainMenu());
-
-
-
         }
-
-
-
-
-
     }
-
 }

@@ -7,13 +7,18 @@ namespace Questus
     {
         // FIELDS
         private SceneManager sceneManager;
+
+        private string dbPath = "ScenesDATA.db";
+
         private List<SceneHolder> listScenes;
         private int currentSceneIndex;
         private Stack<int> history;
         private SceneHolder currentScene;
+        private SceneGetter sceneGetter;
 
         // ANIMATION FIELDS
         private Label animatedLabel;
+
         private string textToAnimate;
         private int currentCharIndex;
         private Label questionMark;
@@ -26,15 +31,14 @@ namespace Questus
 
         private void InitializeGame()
         {
-            sceneManager = new SceneManager();
-            listScenes = sceneManager.GetScenes();
+            sceneGetter = new SceneGetter(dbPath);
+            listScenes = sceneGetter.GetScenes();
             currentSceneIndex = 0;
             history = new Stack<int>();
             history.Push(currentSceneIndex);
             currentScene = listScenes[currentSceneIndex];
             UpdateButtonTextAndHandlers();
         }
-
 
         // ANIMATION
         private void InitializeAnimation()
@@ -57,6 +61,7 @@ namespace Questus
                 animationTimer.Start();
             }
         }
+
         private async Task AnimationTimer_TickAsync()
         {
             if (currentCharIndex < textToAnimate.Length)
@@ -67,7 +72,7 @@ namespace Questus
             else
             {
                 animationTimer.Stop();
-                if (sceneManager.IsEndingScene(currentSceneIndex))
+                if (sceneGetter.IsEndingScene(currentSceneIndex))
                 {
                     await Task.Delay(1000);
                     currentScene.SceneText = string.Empty;
@@ -75,6 +80,7 @@ namespace Questus
                 }
             }
         }
+
         private void ResetAnimation()
         {
             if (animationTimer != null)
@@ -91,6 +97,7 @@ namespace Questus
                 animatedLabel = null;
             }
         }
+
         private void ClearAnimatedLabel()
         {
             if (animatedLabel != null)
@@ -100,7 +107,6 @@ namespace Questus
                 animatedLabel = null;
             }
         }
-
 
         // BUTTONS
 
@@ -124,6 +130,7 @@ namespace Questus
             Option3.Click += Option_Click;
             Option3.Enabled = currentScene.SceneActions.Count > 2;
         }
+
         private void Option_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
@@ -135,14 +142,15 @@ namespace Questus
             currentSceneIndex = nextSceneIndex;
             currentScene = listScenes[currentSceneIndex];
 
-            if (sceneManager.IsEndingScene(currentSceneIndex))
+            if (sceneGetter.IsEndingScene(currentSceneIndex))
             {
-                currentScene.SceneText = sceneManager.GetEndingSceneText(currentSceneIndex);
+                currentScene.SceneText = sceneGetter.GetEndingSceneText(currentSceneIndex);
                 HideButtons();
             }
 
             UpdtaeScene();
         }
+
         private void StartAgainButton_Click(object? sender, EventArgs e)
         {
             Controls.Remove((Button)sender); // Удаляем кнопку "Start Again"
@@ -151,14 +159,15 @@ namespace Questus
 
             RestartGame();
         }
+
         private void QuitGameButton_Click(object? sender, EventArgs e)
         {
             Close();
         }
+
         private void ShowEndGameButtons()
         {
             ClearAnimatedLabel();
-
 
             BackgroundImage = Properties.Resources.scene0;
 
@@ -192,15 +201,13 @@ namespace Questus
             quitGameButton.Click += QuitGameButton_Click;
             Controls.Add(quitGameButton);
         }
+
         private void HideButtons()
         {
             Option1.Hide();
             Option2.Hide();
             Option3.Hide();
         }
-
-
-
 
         // UPDATES
         private void RestartGame()
@@ -210,6 +217,7 @@ namespace Questus
             InitializeAnimation();
             history.Push(0);
         }
+
         private void UpdtaeScene()
         {
             if (!string.IsNullOrEmpty(currentScene.BackgroundImageName))
@@ -221,6 +229,7 @@ namespace Questus
             ResetAnimation();
             InitializeAnimation();
         }
+
         private void LoadGame()
         {
             InitializeComponent();
@@ -228,7 +237,5 @@ namespace Questus
             InitializeAnimation();
             BackgroundImage = Properties.Resources.ResourceManager.GetObject(currentScene.BackgroundImageName) as Image;
         }
-
     }
-
 }
