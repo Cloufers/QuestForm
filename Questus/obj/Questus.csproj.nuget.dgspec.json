@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SadPC\\Desktop\\lol\\Questus\\Questus.csproj": {}
+    "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\Questus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SadPC\\Desktop\\lol\\Questus\\Questus.csproj": {
+    "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\Questus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SadPC\\Desktop\\lol\\Questus\\Questus.csproj",
+        "projectUniqueName": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\Questus.csproj",
         "projectName": "Questus",
-        "projectPath": "C:\\Users\\SadPC\\Desktop\\lol\\Questus\\Questus.csproj",
+        "projectPath": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\Questus.csproj",
         "packagesPath": "C:\\Users\\SadPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SadPC\\Desktop\\lol\\Questus\\obj\\",
+        "outputPath": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "ReaLTaiizor": {
+              "target": "Package",
+              "version": "[3.8.0.5, )"
             }
           },
           "imports": [

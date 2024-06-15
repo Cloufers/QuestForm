@@ -1,4 +1,6 @@
-﻿public class FixedSizeForm : Form
+﻿using ReaLTaiizor.Forms;
+
+public class FixedSizeForm : Form
 {
     public FixedSizeForm()
     {
@@ -12,8 +14,6 @@
     {
         Width = 1280;
         Height = 720;
-        base.OnResize(e);   
+        base.OnResize(e);
     }
-
-
 }

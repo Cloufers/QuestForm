@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SadPC\\Desktop\\New one\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\sadpc\\desktop\\new one\\questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\sadpc\\desktop\\new one\\questus\\fixedsizeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\fixedsizeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\sadpc\\desktop\\new one\\questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\sadpc\\desktop\\new one\\questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FixedSIzeForm.cs",
+              "DocumentMoniker": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\FixedSIzeForm.cs",
+              "RelativeDocumentMoniker": "Questus\\FixedSIzeForm.cs",
+              "ToolTip": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\FixedSIzeForm.cs",
+              "RelativeToolTip": "Questus\\FixedSIzeForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:12:24.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Questus\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\MainMenu.cs",
+              "RelativeToolTip": "Questus\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:11:55.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Questus\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\MainMenu.cs [Design]",
+              "RelativeToolTip": "Questus\\MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:54:13.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\GameScreen.cs",
+              "RelativeDocumentMoniker": "Questus\\GameScreen.cs",
+              "ToolTip": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\GameScreen.cs [Design]",
+              "RelativeToolTip": "Questus\\GameScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:53:53.221Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

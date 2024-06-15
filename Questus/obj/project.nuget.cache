@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VGKih+PbLN8=",
+  "dgSpecHash": "jNDFBn3zrRM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SadPC\\Desktop\\lol\\Questus\\Questus.csproj",
+  "projectFilePath": "C:\\Users\\SadPC\\Desktop\\New one\\Questus\\Questus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SadPC\\.nuget\\packages\\microsoft.data.sqlite\\8.0.6\\microsoft.data.sqlite.8.0.6.nupkg.sha512",
     "C:\\Users\\SadPC\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.6\\microsoft.data.sqlite.core.8.0.6.nupkg.sha512",
@@ -17,6 +17,7 @@
     "C:\\Users\\SadPC\\.nuget\\packages\\naudio.winforms\\2.2.1\\naudio.winforms.2.2.1.nupkg.sha512",
     "C:\\Users\\SadPC\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
     "C:\\Users\\SadPC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\SadPC\\.nuget\\packages\\realtaiizor\\3.8.0.5\\realtaiizor.3.8.0.5.nupkg.sha512",
     "C:\\Users\\SadPC\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\SadPC\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\SadPC\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
