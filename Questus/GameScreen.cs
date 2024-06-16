@@ -49,9 +49,10 @@ namespace Questus
                 currentCharIndex = 0;
 
                 animatedLabel = new Label();
-                animatedLabel.Image = Properties.Resources.label;
+                animatedLabel.Image = Properties.Resources.buttonFon;
+                animatedLabel.ForeColor = Color.Orange;
                 animatedLabel.AutoSize = true;
-                animatedLabel.Location = new Point(220, 420); // Location
+                animatedLabel.Location = new Point(180, 420); // Location
                 animatedLabel.Font = new Font("Arial", 18); // Font/Size
                 animatedLabel.BorderStyle = BorderStyle.Fixed3D;
                 Controls.Add(animatedLabel);

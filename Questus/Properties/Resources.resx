@@ -121,11 +121,8 @@
   <data name="buttonFon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>background\buttonFon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="label" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\label.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="scene0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>background\scene0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>background\scene0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scene1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>background\scene1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -135,6 +132,9 @@
   </data>
   <data name="scene11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>background\scene11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scene111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>background\scene11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scene12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>background\scene12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -156,6 +156,9 @@
   </data>
   <data name="scene21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>background\scene21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scene22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>background\scene22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scene3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>background\scene3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

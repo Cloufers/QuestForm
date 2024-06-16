@@ -47,30 +47,33 @@ namespace Questus
             // 
             // Option1
             // 
-            Option1.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
-            Option1.Location = new Point(222, 530);
+            Option1.Font = new Font("Segoe UI", 18F);
+            Option1.ForeColor = Color.Orange;
+            Option1.Location = new Point(197, 485);
             Option1.Name = "Option1";
-            Option1.Size = new Size(200, 83);
+            Option1.Size = new Size(538, 54);
             Option1.TabIndex = 0;
             Option1.Text = "HELP";
             Option1.UseVisualStyleBackColor = true;
             // 
             // Option2
             // 
-            Option2.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
-            Option2.Location = new Point(557, 530);
+            Option2.Font = new Font("Segoe UI", 18F);
+            Option2.ForeColor = Color.Orange;
+            Option2.Location = new Point(196, 545);
             Option2.Name = "Option2";
-            Option2.Size = new Size(208, 83);
+            Option2.Size = new Size(538, 54);
             Option2.TabIndex = 1;
             Option2.Text = "button2";
             Option2.UseVisualStyleBackColor = true;
             // 
             // Option3
             // 
-            Option3.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 204);
-            Option3.Location = new Point(864, 530);
+            Option3.Font = new Font("Segoe UI", 18F);
+            Option3.ForeColor = Color.Orange;
+            Option3.Location = new Point(195, 605);
             Option3.Name = "Option3";
-            Option3.Size = new Size(201, 83);
+            Option3.Size = new Size(539, 54);
             Option3.TabIndex = 2;
             Option3.Text = "button3";
             Option3.UseVisualStyleBackColor = true;
@@ -79,11 +82,13 @@ namespace Questus
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.scene0;
             ClientSize = new Size(1264, 681);
             Controls.Add(Option3);
             Controls.Add(Option2);
             Controls.Add(Option1);
             Controls.Add(splitter1);
+            ForeColor = Color.Orange;
             Name = "GameScreen";
             Text = "Game";
             ResumeLayout(false);
