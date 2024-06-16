@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\questus.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameScreen.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.cs",
               "RelativeDocumentMoniker": "Questus\\GameScreen.cs",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Questus\\Properties\\Resources.resx",
@@ -94,8 +94,7 @@
               "ToolTip": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\Questus.csproj",
               "RelativeToolTip": "Questus\\Questus.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-16T09:51:29.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T09:51:29.227Z"
             },
             {
               "$type": "Document",
@@ -111,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\MainMenu.cs",
               "RelativeDocumentMoniker": "Questus\\MainMenu.cs",
               "ToolTip": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\MainMenu.cs",
               "RelativeToolTip": "Questus\\MainMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAD4vxQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T18:11:55.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\MainMenu.cs",
               "RelativeDocumentMoniker": "Questus\\MainMenu.cs",
@@ -136,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "GameScreen.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.cs",
               "RelativeDocumentMoniker": "Questus\\GameScreen.cs",
