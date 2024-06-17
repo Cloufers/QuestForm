@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\questus.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\questus.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|c:\\users\\\u0432\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\questus\\gamescreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E69D56C-7797-4F11-93DD-BA4F1E4F3D56}|Questus\\Questus.csproj|solutionrelative:questus\\gamescreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Questus\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\Properties\\Resources.resx",
+              "RelativeToolTip": "Questus\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-17T05:53:37.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Questus",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\Questus.csproj",
+              "RelativeDocumentMoniker": "Questus\\Questus.csproj",
+              "ToolTip": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\Questus.csproj",
+              "RelativeToolTip": "Questus\\Questus.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-17T05:52:38.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.Designer.cs",
+              "RelativeDocumentMoniker": "Questus\\GameScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.Designer.cs",
+              "RelativeToolTip": "Questus\\GameScreen.Designer.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T05:20:02.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameScreen.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.cs",
+              "RelativeDocumentMoniker": "Questus\\GameScreen.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.cs",
+              "RelativeToolTip": "Questus\\GameScreen.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAIAwwDcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T05:18:31.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameScreen.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.cs",
+              "RelativeDocumentMoniker": "Questus\\GameScreen.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0443\u043B\u044C\u0442\u0443\u0440\u044C\u0439\u043E\u043B\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Questus\\GameScreen.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Questus\\GameScreen.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T05:17:17.089Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -113,16 +113,6 @@ namespace Questus.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap scene11 {
-            get {
-                object obj = ResourceManager.GetObject("scene11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         public static System.Drawing.Bitmap scene111 {
             get {
                 object obj = ResourceManager.GetObject("scene111", resourceCulture);
@@ -196,16 +186,6 @@ namespace Questus.Properties {
         public static System.Drawing.Bitmap scene21 {
             get {
                 object obj = ResourceManager.GetObject("scene21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap scene22 {
-            get {
-                object obj = ResourceManager.GetObject("scene22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

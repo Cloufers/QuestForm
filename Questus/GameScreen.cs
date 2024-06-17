@@ -49,15 +49,16 @@ namespace Questus
                 currentCharIndex = 0;
 
                 animatedLabel = new Label();
-                animatedLabel.Image = Properties.Resources.buttonFon;
                 animatedLabel.ForeColor = Color.Orange;
+                animatedLabel.FlatStyle = FlatStyle.Flat;
+                animatedLabel.BackColor = Color.Transparent;
                 animatedLabel.AutoSize = true;
-                animatedLabel.Location = new Point(180, 420); // Location
+                animatedLabel.Location = new Point(180, 465); // Location
                 animatedLabel.Font = new Font("Arial", 18); // Font/Size
-                animatedLabel.BorderStyle = BorderStyle.Fixed3D;
+                animatedLabel.BorderStyle = BorderStyle.None;
                 Controls.Add(animatedLabel);
                 animationTimer = new System.Windows.Forms.Timer();
-                animationTimer.Interval = 30; // Interval
+                animationTimer.Interval = 25; // Interval
                 animationTimer.Tick += async (sender, e) => await AnimationTimer_TickAsync();
                 animationTimer.Start();
             }
@@ -114,19 +115,16 @@ namespace Questus
         private void UpdateButtonTextAndHandlers()
         {
             Option1.Text = currentScene.SceneActions.Count > 0 ? currentScene.SceneActions[0] : string.Empty;
-            Option1.Image = Properties.Resources.buttonFon;
             Option1.Click -= Option_Click;
             Option1.Click += Option_Click;
             Option1.Enabled = currentScene.SceneActions.Count > 0;
 
             Option2.Text = currentScene.SceneActions.Count > 1 ? currentScene.SceneActions[1] : string.Empty;
-            Option2.Image = Properties.Resources.buttonFon;
             Option2.Click -= Option_Click;
             Option2.Click += Option_Click;
             Option2.Enabled = currentScene.SceneActions.Count > 1;
 
             Option3.Text = currentScene.SceneActions.Count > 2 ? currentScene.SceneActions[2] : string.Empty;
-            Option3.Image = Properties.Resources.buttonFon;
             Option3.Click -= Option_Click;
             Option3.Click += Option_Click;
             Option3.Enabled = currentScene.SceneActions.Count > 2;
@@ -237,6 +235,11 @@ namespace Questus
             InitializeGame();
             InitializeAnimation();
             BackgroundImage = Properties.Resources.ResourceManager.GetObject(currentScene.BackgroundImageName) as Image;
+        }
+
+        private void GameScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
