@@ -113,9 +113,9 @@ namespace Questus.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap scene111 {
+        public static System.Drawing.Bitmap scene11 {
             get {
-                object obj = ResourceManager.GetObject("scene111", resourceCulture);
+                object obj = ResourceManager.GetObject("scene11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
