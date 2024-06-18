@@ -9,7 +9,6 @@ namespace Questus
         private SceneManager sceneManager;
 
         private string dbPath = "ScenesDATA.db";
-
         private List<SceneHolder> listScenes;
         private int currentSceneIndex;
         private Stack<int> history;
@@ -17,16 +16,24 @@ namespace Questus
         private SceneGetter sceneGetter;
 
         // ANIMATION FIELDS
-        private Label animatedLabel;
+        private IAnimationController animationController;
 
-        private string textToAnimate;
-        private int currentCharIndex;
         private Label questionMark;
-        private System.Windows.Forms.Timer animationTimer;
 
         public GameScreen()
         {
+            InitializeComponent();
+            animationController = new AnimationController();
+            animationController.AnimationCompleted += AnimationController_AnimationCompleted;
             LoadGame();
+        }
+
+        private void AnimationController_AnimationCompleted(object sender, EventArgs e)
+        {
+            if (sceneGetter.IsEndingScene(currentSceneIndex))
+            {
+                ShowEndGameButtons();
+            }
         }
 
         private void InitializeGame()
@@ -40,77 +47,36 @@ namespace Questus
             UpdateButtonTextAndHandlers();
         }
 
-        // ANIMATION
         private void InitializeAnimation()
         {
             if (currentScene != null && !string.IsNullOrEmpty(currentScene.SceneText))
             {
-                textToAnimate = currentScene.SceneText;
-                currentCharIndex = 0;
-
-                animatedLabel = new Label();
-                animatedLabel.ForeColor = Color.Orange;
-                animatedLabel.FlatStyle = FlatStyle.Flat;
-                animatedLabel.BackColor = Color.Transparent;
-                animatedLabel.AutoSize = true;
-                animatedLabel.Location = new Point(180, 465); // Location
-                animatedLabel.Font = new Font("Arial", 18); // Font/Size
-                animatedLabel.BorderStyle = BorderStyle.None;
-                Controls.Add(animatedLabel);
-                animationTimer = new System.Windows.Forms.Timer();
-                animationTimer.Interval = 25; // Interval
-                animationTimer.Tick += async (sender, e) => await AnimationTimer_TickAsync();
-                animationTimer.Start();
-            }
-        }
-
-        private async Task AnimationTimer_TickAsync()
-        {
-            if (currentCharIndex < textToAnimate.Length)
-            {
-                animatedLabel.Text = textToAnimate.Substring(0, currentCharIndex + 1);
-                currentCharIndex++;
-            }
-            else
-            {
-                animationTimer.Stop();
-                if (sceneGetter.IsEndingScene(currentSceneIndex))
+                var label = new Label
                 {
-                    await Task.Delay(1000);
-                    currentScene.SceneText = string.Empty;
-                    ShowEndGameButtons();
-                }
+                    ForeColor = Color.Orange,
+                    FlatStyle = FlatStyle.Flat,
+                    BackColor = Color.Transparent,
+                    AutoSize = true,
+                    Location = new Point(180, 465),
+                    Font = new Font("Arial", 18),
+                    BorderStyle = BorderStyle.None
+                };
+                Controls.Add(label);
+
+                animationController.InitializeAnimation(label, currentScene.SceneText, 25);
+                animationController.StartAnimation();
             }
         }
 
         private void ResetAnimation()
         {
-            if (animationTimer != null)
-            {
-                animationTimer.Stop();
-                animationTimer.Dispose();
-                animationTimer = null;
-            }
-
-            if (animatedLabel != null)
-            {
-                Controls.Remove(animatedLabel);
-                animatedLabel.Dispose();
-                animatedLabel = null;
-            }
+            animationController.ResetAnimation();
         }
 
         private void ClearAnimatedLabel()
         {
-            if (animatedLabel != null)
-            {
-                Controls.Remove(animatedLabel);
-                animatedLabel.Dispose();
-                animatedLabel = null;
-            }
+            animationController.ClearAnimatedLabel();
         }
-
-        // BUTTONS
 
         private void UpdateButtonTextAndHandlers()
         {
@@ -147,13 +113,13 @@ namespace Questus
                 HideButtons();
             }
 
-            UpdtaeScene();
+            UpdateScene();
         }
 
         private void StartAgainButton_Click(object? sender, EventArgs e)
         {
-            Controls.Remove((Button)sender); // Удаляем кнопку "Start Again"
-            Controls.Remove(Controls.OfType<Button>().FirstOrDefault(b => b.Text == "Quit Game")); // Удаляем кнопку "Quit Game"
+            Controls.Remove((Button)sender);
+            Controls.Remove(Controls.OfType<Button>().FirstOrDefault(b => b.Text == "Quit Game"));
             Controls.Remove(questionMark);
 
             RestartGame();
@@ -170,33 +136,39 @@ namespace Questus
 
             BackgroundImage = Properties.Resources.scene0;
 
-            questionMark = new Label();
-            questionMark.Text = "Wanna start again?";
-            questionMark.Location = new Point(500, 220);
-            questionMark.Font = new Font("Tempus Sans ITC", 25); // Font/Size
-            questionMark.TextAlign = ContentAlignment.MiddleLeft;
-            questionMark.BorderStyle = BorderStyle.None;
-            questionMark.Image = Properties.Resources.buttonFon;
-            questionMark.AutoSize = true;
+            questionMark = new Label
+            {
+                Text = "Wanna start again?",
+                Location = new Point(500, 220),
+                Font = new Font("Tempus Sans ITC", 25),
+                TextAlign = ContentAlignment.MiddleLeft,
+                BorderStyle = BorderStyle.None,
+                Image = Properties.Resources.buttonFon,
+                AutoSize = true
+            };
             Controls.Add(questionMark);
 
-            Button startAgainButton = new Button();
-            startAgainButton.Text = "Start Again";
-            startAgainButton.Size = new Size(90, 50);
-            startAgainButton.Font = new Font("Tempus Sans ITC", 20); // Font/Size
-            startAgainButton.TextAlign = ContentAlignment.MiddleCenter;
-            startAgainButton.Location = new Point(350, 550);
-            startAgainButton.Image = Properties.Resources.buttonFon;
+            Button startAgainButton = new Button
+            {
+                Text = "Start Again",
+                Size = new Size(90, 50),
+                Font = new Font("Tempus Sans ITC", 20),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Location = new Point(350, 550),
+                Image = Properties.Resources.buttonFon
+            };
             startAgainButton.Click += StartAgainButton_Click;
             Controls.Add(startAgainButton);
 
-            Button quitGameButton = new Button();
-            quitGameButton.Text = "Quit Game";
-            quitGameButton.Size = new Size(90, 50);
-            quitGameButton.Location = new Point(850, 550); //(Width / 2 + 40, Height / 2 - quitGameButton.Height - 40);
-            quitGameButton.Font = new Font("Tempus Sans ITC", 20); // Font/Size
-            quitGameButton.TextAlign = ContentAlignment.MiddleCenter;
-            quitGameButton.Image = Properties.Resources.buttonFon;
+            Button quitGameButton = new Button
+            {
+                Text = "Quit Game",
+                Size = new Size(90, 50),
+                Location = new Point(850, 550),
+                Font = new Font("Tempus Sans ITC", 20),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Image = Properties.Resources.buttonFon
+            };
             quitGameButton.Click += QuitGameButton_Click;
             Controls.Add(quitGameButton);
         }
@@ -208,7 +180,6 @@ namespace Questus
             Option3.Hide();
         }
 
-        // UPDATES
         private void RestartGame()
         {
             InitializeComponent();
@@ -217,7 +188,7 @@ namespace Questus
             history.Push(0);
         }
 
-        private void UpdtaeScene()
+        private void UpdateScene()
         {
             if (!string.IsNullOrEmpty(currentScene.BackgroundImageName))
             {
@@ -231,15 +202,9 @@ namespace Questus
 
         private void LoadGame()
         {
-            InitializeComponent();
             InitializeGame();
             InitializeAnimation();
             BackgroundImage = Properties.Resources.ResourceManager.GetObject(currentScene.BackgroundImageName) as Image;
-        }
-
-        private void GameScreen_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

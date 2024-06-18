@@ -95,7 +95,6 @@ namespace Questus
             ForeColor = Color.Orange;
             Name = "GameScreen";
             Text = "Game";
-            Load += GameScreen_Load;
             ResumeLayout(false);
         }
 
