@@ -15,10 +15,16 @@ namespace Questus
             gameScreen.Show();
             Hide();
         }
+        private void Quit_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
-
+           
         }
+
+        
     }
 }

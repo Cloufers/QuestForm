@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             PlayButton = new ReaLTaiizor.Controls.NightButton();
-            nightButton2 = new ReaLTaiizor.Controls.NightButton();
-            nightButton3 = new ReaLTaiizor.Controls.NightButton();
+            Quit = new ReaLTaiizor.Controls.NightButton();
+            nightHeaderLabel1 = new ReaLTaiizor.Controls.NightHeaderLabel();
             SuspendLayout();
             // 
             // PlayButton
             // 
             PlayButton.BackColor = Color.Transparent;
             PlayButton.DialogResult = DialogResult.None;
-            PlayButton.Font = new Font("Papyrus", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            PlayButton.ForeColor = Color.Orange;
+            PlayButton.Font = new Font("Papyrus", 27.75F, FontStyle.Bold);
+            PlayButton.ForeColor = Color.AntiqueWhite;
             PlayButton.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
             PlayButton.HoverForeColor = Color.White;
             PlayButton.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            PlayButton.Location = new Point(70, 148);
+            PlayButton.Location = new Point(846, 418);
             PlayButton.MinimumSize = new Size(144, 47);
             PlayButton.Name = "PlayButton";
-            PlayButton.NormalBackColor = Color.Orange;
+            PlayButton.NormalBackColor = Color.Linen;
             PlayButton.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             PlayButton.PressedBackColor = Color.FromArgb(100, 242, 93, 89);
             PlayButton.PressedForeColor = Color.White;
@@ -56,70 +56,69 @@
             PlayButton.Text = "Play";
             PlayButton.Click += PlayButton_Click;
             // 
-            // nightButton2
+            // Quit
             // 
-            nightButton2.BackColor = Color.Transparent;
-            nightButton2.DialogResult = DialogResult.None;
-            nightButton2.Font = new Font("Papyrus", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            nightButton2.ForeColor = Color.Orange;
-            nightButton2.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
-            nightButton2.HoverForeColor = Color.White;
-            nightButton2.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            nightButton2.Location = new Point(70, 250);
-            nightButton2.MinimumSize = new Size(144, 47);
-            nightButton2.Name = "nightButton2";
-            nightButton2.NormalBackColor = Color.Orange;
-            nightButton2.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
-            nightButton2.PressedBackColor = Color.FromArgb(100, 242, 93, 89);
-            nightButton2.PressedForeColor = Color.White;
-            nightButton2.Radius = 20;
-            nightButton2.Size = new Size(393, 70);
-            nightButton2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            nightButton2.TabIndex = 5;
-            nightButton2.Text = "Settings";
+            Quit.BackColor = Color.Transparent;
+            Quit.DialogResult = DialogResult.None;
+            Quit.Font = new Font("Papyrus", 27.75F, FontStyle.Bold);
+            Quit.ForeColor = Color.AntiqueWhite;
+            Quit.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
+            Quit.HoverForeColor = Color.White;
+            Quit.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+            Quit.Location = new Point(846, 525);
+            Quit.MinimumSize = new Size(144, 47);
+            Quit.Name = "Quit";
+            Quit.NormalBackColor = Color.Linen;
+            Quit.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            Quit.PressedBackColor = Color.FromArgb(100, 242, 93, 89);
+            Quit.PressedForeColor = Color.White;
+            Quit.Radius = 20;
+            Quit.Size = new Size(393, 70);
+            Quit.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            Quit.TabIndex = 5;
+            Quit.Text = "Quit";
+            Quit.Click += Quit_Click;
             // 
-            // nightButton3
+            // nightHeaderLabel1
             // 
-            nightButton3.BackColor = Color.Transparent;
-            nightButton3.DialogResult = DialogResult.None;
-            nightButton3.Font = new Font("Papyrus", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            nightButton3.ForeColor = Color.Orange;
-            nightButton3.HoverBackColor = Color.FromArgb(50, 242, 93, 89);
-            nightButton3.HoverForeColor = Color.White;
-            nightButton3.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            nightButton3.Location = new Point(70, 352);
-            nightButton3.MinimumSize = new Size(144, 47);
-            nightButton3.Name = "nightButton3";
-            nightButton3.NormalBackColor = Color.Orange;
-            nightButton3.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
-            nightButton3.PressedBackColor = Color.FromArgb(100, 242, 93, 89);
-            nightButton3.PressedForeColor = Color.White;
-            nightButton3.Radius = 20;
-            nightButton3.Size = new Size(393, 70);
-            nightButton3.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            nightButton3.TabIndex = 6;
-            nightButton3.Text = "Credits";
+            nightHeaderLabel1.AutoSize = true;
+            nightHeaderLabel1.BackColor = Color.Transparent;
+            nightHeaderLabel1.FlatStyle = FlatStyle.Flat;
+            nightHeaderLabel1.Font = new Font("Papyrus", 84.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            nightHeaderLabel1.ForeColor = Color.White;
+            nightHeaderLabel1.LeftSideForeColor = Color.White;
+            nightHeaderLabel1.Location = new Point(106, 234);
+            nightHeaderLabel1.Name = "nightHeaderLabel1";
+            nightHeaderLabel1.RightSideForeColor = Color.White;
+            nightHeaderLabel1.Side = ReaLTaiizor.Controls.NightHeaderLabel.PanelSide.LeftPanel;
+            nightHeaderLabel1.Size = new Size(511, 195);
+            nightHeaderLabel1.TabIndex = 6;
+            nightHeaderLabel1.Text = "Questus";
+            nightHeaderLabel1.TextAlign = ContentAlignment.MiddleCenter;
+            nightHeaderLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+            nightHeaderLabel1.UseCompatibleTextRendering = true;
             // 
             // MainMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Azure;
-            BackgroundImage = Properties.Resources.mainFon;
+            BackgroundImage = Properties.Resources.menu21;
             ClientSize = new Size(1264, 681);
-            Controls.Add(nightButton3);
-            Controls.Add(nightButton2);
+            Controls.Add(nightHeaderLabel1);
+            Controls.Add(Quit);
             Controls.Add(PlayButton);
             Name = "MainMenu";
             Text = "game";
             Load += MainMenu_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private ReaLTaiizor.Controls.NightButton PlayButton;
-        private ReaLTaiizor.Controls.NightButton nightButton2;
-        private ReaLTaiizor.Controls.NightButton nightButton3;
+        private ReaLTaiizor.Controls.NightButton Quit;
+        private ReaLTaiizor.Controls.NightHeaderLabel nightHeaderLabel1;
     }
 }

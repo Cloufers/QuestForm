@@ -53,7 +53,7 @@ namespace Questus
             {
                 var label = new Label
                 {
-                    ForeColor = Color.Orange,
+                    ForeColor = Color.White,
                     FlatStyle = FlatStyle.Flat,
                     BackColor = Color.Transparent,
                     AutoSize = true,
@@ -205,6 +205,11 @@ namespace Questus
             InitializeGame();
             InitializeAnimation();
             BackgroundImage = Properties.Resources.ResourceManager.GetObject(currentScene.BackgroundImageName) as Image;
+        }
+
+        private void GameScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

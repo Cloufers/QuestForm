@@ -39,10 +39,13 @@ namespace Questus
             // Option1
             // 
             Option1.BackColor = Color.Transparent;
+            Option1.FlatAppearance.BorderColor = Color.Peru;
             Option1.FlatAppearance.BorderSize = 0;
+            Option1.FlatAppearance.MouseDownBackColor = Color.Peru;
+            Option1.FlatAppearance.MouseOverBackColor = Color.Peru;
             Option1.FlatStyle = FlatStyle.Flat;
             Option1.Font = new Font("Papyrus", 12.75F);
-            Option1.ForeColor = Color.Orange;
+            Option1.ForeColor = Color.White;
             Option1.Location = new Point(197, 527);
             Option1.Margin = new Padding(2);
             Option1.Name = "Option1";
@@ -55,10 +58,13 @@ namespace Questus
             // Option2
             // 
             Option2.BackColor = Color.Transparent;
+            Option2.FlatAppearance.BorderColor = Color.Peru;
             Option2.FlatAppearance.BorderSize = 0;
+            Option2.FlatAppearance.MouseDownBackColor = Color.Peru;
+            Option2.FlatAppearance.MouseOverBackColor = Color.Peru;
             Option2.FlatStyle = FlatStyle.Flat;
             Option2.Font = new Font("Papyrus", 12.75F);
-            Option2.ForeColor = Color.Orange;
+            Option2.ForeColor = Color.White;
             Option2.Location = new Point(197, 576);
             Option2.Margin = new Padding(2);
             Option2.Name = "Option2";
@@ -71,10 +77,13 @@ namespace Questus
             // Option3
             // 
             Option3.BackColor = Color.Transparent;
+            Option3.FlatAppearance.BorderColor = Color.Peru;
             Option3.FlatAppearance.BorderSize = 0;
+            Option3.FlatAppearance.MouseDownBackColor = Color.Peru;
+            Option3.FlatAppearance.MouseOverBackColor = Color.Peru;
             Option3.FlatStyle = FlatStyle.Flat;
             Option3.Font = new Font("Papyrus", 12.75F);
-            Option3.ForeColor = Color.Orange;
+            Option3.ForeColor = Color.White;
             Option3.Location = new Point(196, 625);
             Option3.Margin = new Padding(2);
             Option3.Name = "Option3";
@@ -92,9 +101,10 @@ namespace Questus
             Controls.Add(Option3);
             Controls.Add(Option2);
             Controls.Add(Option1);
-            ForeColor = Color.Orange;
+            ForeColor = Color.White;
             Name = "GameScreen";
             Text = "Game";
+            Load += GameScreen_Load;
             ResumeLayout(false);
         }
 

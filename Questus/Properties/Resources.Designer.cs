@@ -73,9 +73,19 @@ namespace Questus.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap mainFon {
+        public static System.Drawing.Bitmap menu2 {
             get {
-                object obj = ResourceManager.GetObject("mainFon", resourceCulture);
+                object obj = ResourceManager.GetObject("menu2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap menu21 {
+            get {
+                object obj = ResourceManager.GetObject("menu21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
